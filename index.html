@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Convertor</h2>
+
+        <form action="">
+
+        <div class="amount">
+            <label for="amount">Enter Amount:-</label>
+            <input type="text" value="100" id="amount">
+        </div>
+
+            <div class="dropdown">
+                <div class="from">
+                <label for="select">From</label> <br> 
+                <div class="select-container">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+
+              <select name="from" id="select">
+                  <!-- <option value="INR" selected>IND</option> -->
+                <!-- <option value="USD">USD</option>
+                
+                
+                
+                
+                >INR</option>
+                <option value="EUR">EUR</option>
+                <option value="AND">AUD</option> -->
+              </select>   
+                </div>
+     
+             </div>
+             <i class="fa-solid fa-right-left"></i>
+             <div class="to">
+                <label for="select2">To</label>  <br>
+                <div class="select-container">
+                      <img src="https://flagsapi.com/US/flat/64.png">
+
+
+                <select name="to" id="select2">
+                  <!-- <option value="USD" selected>USA</option> -->
+                    <!--
+                  <option value="INR">INR</option>
+                  <option value="EUR">EUR</option>
+                  <option value="AND">AND</option> -->
+                </select>  
+                </div>
+         
+             </div>
+            </div>
+             <div class="msg">1USD = 80 INR</div>
+             
+             <button>Get Exchange Rate</button>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+<!-- <script src="code.js"></script> -->
+</html>
